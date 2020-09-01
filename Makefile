@@ -15,7 +15,7 @@ cluster:
 jenkins: jenkins-clone jenkins-up jenkins-test jenkins-tidy
 
 jenkins-clone:
-	git clone https://github.com/Danya-Mudaifea/k8s-jenkins
+	git clone https://github.com/BHanbashi/k8s-jenkins
 
 jenkins-up:
 	cd k8s-jenkins && ./jenkins.sh
