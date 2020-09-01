@@ -12,7 +12,7 @@ cluster:
 	    -v /var/run/docker.sock:/var/run/docker.sock \
 	    --agents 3
 
-jenkins: jenkins-clone jenkins-up jenkins-test jenkins-tidy
+jenkins: jenkins-clone jenkins-up
 
 jenkins-clone:
 	git clone https://github.com/BHanbashi/k8s-jenkins
